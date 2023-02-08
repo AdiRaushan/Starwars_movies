@@ -1,0 +1,136 @@
+*{
+    margin: 0; 
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background :linear-gradient(rgba(255, 0, 0, 0.544),rgba(0, 0, 0,            0.7)),url(img/Vadar.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+    margin: 40px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block ;
+    margin-left: 60px;
+    border: 2px solid rgb(255, 0, 0);
+    padding: 9px;
+    border-radius: 25px;
+    cursor: pointer;
+    color: #fff;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1;
+   
+    
+}
+nav ul li:hover{
+    background-color:#fff;
+    color: black;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+
+}
+h1{
+    color: #fff;
+    font-size: 100px;
+}
+p{
+    color: #fff;
+    font-size: 20px;
+    line-height: 15px;
+
+}
+button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: red;
+}
+button a {
+    font-size: 15px;
+}
+.card{
+    width: 220px;
+    height: 300px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 132px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image:url(/img/revenge.jpg) ;
+    background-position: center;
+    background-size: contain;
+    opacity: 0.8;
+    transition: transform 0.5s;
+}
+.card1{
+    background-image:url(/img/457816.jpg) ;
+}
+.card2{
+    background-image:url(/img/R.jfif) ;
+}
+.card3{
+    background-image:url(/img/27f6755c04ab0e1e933ef27d6a9cc462.jpg) ;
+}
+.card4{
+    background-image:url(/img/ben\ solo.png) ;
+    padding-top: 96px;
+}
+.card5{
+    background-image:url(/img/OIP\ \(1\).jfif) ;
+}
+.card:hover{
+    transform:translatey(-15px);
+}
+h5{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+}

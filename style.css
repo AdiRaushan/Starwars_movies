@@ -67,6 +67,7 @@ h1{
     color: #fff;
     font-size: 100px;
 }
+
 p{
     color: #fff;
     font-size: 20px;
@@ -94,8 +95,8 @@ button a {
     font-size: 15px;
 }
 .card{
-    width: 220px;
-    height: 300px;
+    width: 248px;
+    height: 349px;
     display: inline-block;
     border-radius: 10px;
     padding: 132px 25px;
@@ -104,12 +105,13 @@ button a {
     margin: 10px 15px;
     background-image:url(/img/revenge.jpg) ;
     background-position: center;
-    background-size: contain;
     opacity: 0.8;
     transition: transform 0.5s;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .card1{
-    background-image:url(/img/457816.jpg) ;
+    background-image:url(/img/457816.png) ;
 }
 .card2{
     background-image:url(/img/R.jfif) ;
@@ -119,7 +121,6 @@ button a {
 }
 .card4{
     background-image:url(/img/ben\ solo.png) ;
-    padding-top: 96px;
 }
 .card5{
     background-image:url(/img/OIP\ \(1\).jfif) ;
@@ -133,4 +134,42 @@ h5{
     font-size: medium;
     display: flex;
     justify-content: center;
+}
+@media only screen and (max-width: 886px) {
+    .card{
+        width: 143px;
+        height: 232px;
+        display: inline-block;
+        border-radius: 10px;
+        padding: 65px 25px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 10px 15px;
+        background-image:url(/img/revenge.jpg) ;
+        background-position: center;
+        opacity: 0.8;
+        transition: transform 0.5s;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }  
+    .card1{
+        background-image:url(/img/457816.png) ;
+    }
+    .card2{
+        background-image:url(/img/R.jfif) ;
+    }
+    .card3{
+        background-image:url(/img/27f6755c04ab0e1e933ef27d6a9cc462.jpg) ;
+    }
+    .card4{
+        background-image:url(/img/ben\ solo.png) ;
+    }
+    h1{
+        font-size: 50px;
+    }
+    p{
+        font-size: 20px;
+    }
+   
+
 }

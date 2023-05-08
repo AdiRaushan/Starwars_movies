@@ -6,7 +6,7 @@
 .container{
     width: 100%;
     height: 100vh;
-    background :linear-gradient(rgba(255, 0, 0, 0.544),rgba(0, 0, 0,            0.7)),url(img/Vadar.png);
+    background :linear-gradient(rgb(134 0 0 / 54%),rgb(0 0 0 / 70%)),url(img/Vadar.png);
     background-position: center;
     background-size: cover;
     padding-left: 8%;
@@ -37,9 +37,8 @@ nav ul li {
     list-style: none;
     display: inline-block ;
     margin-left: 60px;
-    border: 2px solid rgb(255, 0, 0);
+    border-radius: 15px;
     padding: 9px;
-    border-radius: 25px;
     cursor: pointer;
     color: #fff;
 }
@@ -95,8 +94,8 @@ button a {
     font-size: 15px;
 }
 .card{
-    width: 248px;
-    height: 349px;
+    width: 183px;
+    height: 260px;
     display: inline-block;
     border-radius: 10px;
     padding: 132px 25px;
@@ -105,7 +104,7 @@ button a {
     margin: 10px 15px;
     background-image:url(/img/revenge.jpg) ;
     background-position: center;
-    opacity: 0.8;
+    opacity: 0.9;
     transition: transform 0.5s;
     background-repeat: no-repeat;
     background-size: cover;
@@ -137,8 +136,8 @@ h5{
 }
 @media only screen and (max-width: 886px) {
     .card{
-        width: 143px;
-        height: 232px;
+        width: 90px;
+        height: 110px;
         display: inline-block;
         border-radius: 10px;
         padding: 65px 25px;
@@ -165,11 +164,14 @@ h5{
         background-image:url(/img/ben\ solo.png) ;
     }
     h1{
-        font-size: 50px;
-    }
-    p{
         font-size: 20px;
     }
-   
+    p{
+        font-size: 10px;
+    }
+   h5{
+    font-size: 10px;
+   }
 
 }
+
